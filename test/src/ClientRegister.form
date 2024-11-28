@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ClientRegister">
+  <grid id="27dc6" binding="ClientPanel" layout-manager="GridLayoutManager" row-count="10" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="932" height="529"/>
+    </constraints>
+    <properties>
+      <background color="-2494977"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="3c4f8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century" size="18" style="1"/>
+          <text value="Adresse Client :"/>
+        </properties>
+      </component>
+      <component id="59850" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century" size="18" style="1"/>
+          <text value="Numéro de téléphone :"/>
+        </properties>
+      </component>
+      <component id="70a40" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century" size="18" style="1"/>
+          <text value="E-mail :"/>
+        </properties>
+      </component>
+      <component id="68cfc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century" size="18" style="1"/>
+          <text value="Code Postale :"/>
+        </properties>
+      </component>
+      <component id="f5c33" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century" size="18" style="1"/>
+          <text value="Contact :"/>
+        </properties>
+      </component>
+      <component id="21ffc" class="javax.swing.JTextField" binding="t_nom">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12" style="1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="31ba" class="javax.swing.JTextField" binding="t_tel">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12" style="1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="6a060" class="javax.swing.JTextField" binding="t_adr">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12" style="1"/>
+        </properties>
+      </component>
+      <component id="e99ab" class="javax.swing.JTextField" binding="t_mail">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12" style="1"/>
+        </properties>
+      </component>
+      <component id="fc5e9" class="javax.swing.JTextField" binding="t_code">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12" style="1"/>
+        </properties>
+      </component>
+      <component id="3dd5f" class="javax.swing.JTextField" binding="t_contact">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12" style="1"/>
+        </properties>
+      </component>
+      <component id="e10f7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2829100"/>
+          <icon value="client.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <scrollpane id="e86ad">
+        <constraints>
+          <grid row="1" column="5" row-span="6" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6757126"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="acb6d" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <hspacer id="68cd4">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="b1123" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century" size="18" style="1"/>
+          <text value="Client :"/>
+        </properties>
+      </component>
+      <component id="b55c2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bodoni MT" size="36" style="1"/>
+          <text value="Fiche Client"/>
+        </properties>
+      </component>
+      <component id="34bff" class="javax.swing.JButton" binding="supprimerClientButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Century" size="16" style="1"/>
+          <text value="Supprimer client"/>
+        </properties>
+      </component>
+      <component id="472a6" class="javax.swing.JButton" binding="btn_enrg">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <enabled value="true"/>
+          <font name="Century" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Enregistrer"/>
+        </properties>
+      </component>
+      <component id="10b7f" class="javax.swing.JButton" binding="btn_annl">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <enabled value="true"/>
+          <font name="Century" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="&lt;&lt; Précédent"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
